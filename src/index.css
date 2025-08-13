@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+    .profile-pic {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.mobile-footer-icons {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  padding: 8px 0;
+  z-index: 9999;
+}
+
+
+.header-icon {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Matn va rasm orasidagi masofa */
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.header-icon img {
+  width: auto; 
+  height: auto;
+}
+
+.search-box input {
+  border: 2px solid #8bc34a;
+  border-radius: 4px 0 0 4px;
+  height: 40px; /* Qidiruv balandligini oshirdik */
+}
+
+.search-box button {
+  border: 2px solid #8bc34a;
+  border-left: none;
+  background-color: #fff;
+  border-radius: 0 4px 4px 0;
+  height: 40px;
+}
+
+.catalog-btn {
+  background-color: #8bc34a;
+  color: #fff;
+  border-radius: 4px;
+  padding: 8px 18px; /* Tugma kattaroq bo‘ldi */
+  border: none;
+  font-size: 14px;
+}
+
+.profile-pic {
+  width: 40px; /* Profil rasmi kattaroq */
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+
+
+
+.catalog-btn {
+  background-color: #8bc34a;
+  color: #fff;
+  border-radius: 4px;
+  padding: 6px 15px;
+  border: none;
+}
+
+.search-box input {
+  border: 2px solid #8bc34a;
+  border-radius: 4px 0 0 4px;
+  height: 40px;
+}
+
+.search-box button {
+  border: 2px solid #8bc34a;
+  border-left: none;
+  background-color: #fff;
+  border-radius: 0 4px 4px 0;
+  height: 40px;
+}
+
+
+.banner {
+  background-image: url("../public/img/nav-bacround.png"); 
+  background-size: cover;
+  background-position: center;
+  padding: 10px 20px;
+  /* font-size: 50px;
+  font-weight: 00;
+  color: #333; */
+}
+
+.banner-img {
+  height: auto; /* Oziq-ovqat rasmi kattaligi */
+  margin-right: 15px;
+  
+}
+
+.banner-text {
+  font-size: 48px;
+}
+
+.banner strong {
+  font-weight: 700;
+}
+
+
+.btn-main:hover {
+/* color: wheat; */
+background-color: #FF6633;
+/* padding: 8px; */
+}
+
+
+.banner-text {
+  font-size: 48px;
+  color: #333;
+}
+
+
+.profile-pic {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.mobile-footer-icons {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  z-index: 1000;
+}
+
+
+
+.product-card {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.product-img {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.stars {
+  color: orange;
+  font-size: 25px;
+}
+
+
+
+body {
+  background-color: #fffbe9;
+}
+
+.card img {
+  object-fit: cover;
+  height: 180px;
+}
+
+.btn-success {
+  background-color: #a5d6a7;
+  border: none;
+}
+
+
+
+
+
+.footer {
+  background-color: #fff8e7;
+  background-image: url("../public/img/bg.png"); /* Orqa fon bezagi */
+  background-size: cover;
+}
+
+.footer-logo {
+  height: 40px;
+}
+
+
+
+
+.profile-pic {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.mobile-footer-icons {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  padding: 8px 0;
+  z-index: 9999;
+}
+
+.header-icon img {
+  height: 24px;
+  width: auto;
+}
+
+@media (min-width: 768px) {
+  .mobile-footer-icons {
+    display: none !important;
+  }
+}
+
+
+
+
+
+
+
+
+@media (min-width: 361px) {
+  .mobile-footer-icons {
+    display: none !important;
+  }
+}
+
+
+
+
+
