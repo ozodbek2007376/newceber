@@ -49,7 +49,7 @@ function App() {
 
         <div className="col-md-4">
           <div className="card h-100 shadow-sm">
-            <img src="/img/daraxt.png" className="card-img-top" alt="Статья" />
+            <img src="./img/daraxt.png" className="card-img-top" alt="Статья" />
             <div className="card-body">
               <small className="text-muted">05.03.2021</small>
               <h6 className="fw-bold mt-2">

@@ -30,7 +30,7 @@ function App() {
               </p>
             </div>
             <img
-              src="/img/foter2.png"
+              src="./img/foter2.png"
               alt="Корзина"
               className="ms-auto offer-img"
             />

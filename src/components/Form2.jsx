@@ -3,7 +3,7 @@
 const products = [
   {
     id: 1,
-    img: "/img/header-5.png",
+    img: "./img/header-5.png",
     title: "Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»",
     price: "599,99 ₽",
     stars: 2,
@@ -11,7 +11,7 @@ const products = [
   },
   {
     id: 2,
-    img: "/img/header-3.png",
+    img: "./img/header-3.png",
     title: "Колбаса сырокопченая МЯСНАЯ ИСТОРИЯ Сальчичон и Тоскан...",
     price: "44,50 ₽",
     stars: 5,
@@ -19,7 +19,7 @@ const products = [
   },
   {
     id: 3,
-    img: "/img/header-4.png",
+    img: "./img/header-4.png",
     title: "Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»",
     price: "159,99 ₽",
     stars: 2,
@@ -27,7 +27,7 @@ const products = [
   },
   {
     id: 4,
-    img: "/img/header-2.png",
+    img: "./img/header-2.png",
     title: "Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»",
     price: "49,39 ₽",
     stars: 2,
